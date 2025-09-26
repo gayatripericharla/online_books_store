@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Online Bookstore | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">BookStore 📚</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="cart.html">Cart (0)</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search by title or author...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Featured Books</h1>
+        
+        <section class="book-grid">
+            <div class="book-card">
+                <img src="placeholder-book.jpg" alt="Book Cover" class="book-cover">
+                <h3 class="book-title">The Great Novel</h3>
+                <p class="book-author">by Jane Doe</p>
+                <p class="book-price">$19.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            
+            <div class="book-card">
+                <img src="placeholder-book.jpg" alt="Book Cover" class="book-cover">
+                <h3 class="book-title">Tech Handbook</h3>
+                <p class="book-author">by John Smith</p>
+                <p class="book-price">$29.50</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            </section>
+        
+        <h2 id="categories">Browse Categories</h2>
+        <ul class="categories-list">
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">Science</a></li>
+            <li><a href="#">Thriller</a></li>
+            <li><a href="#">Non-Fiction</a></li>
+        </ul>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Online Bookstore. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+<script src="script.js"></script> 
+</body>
+</html>
